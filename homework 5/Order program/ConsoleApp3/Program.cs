@@ -57,7 +57,7 @@ namespace ConsoleApp3
         public string Customer { get; set; }     //客户 
         public List<OrderItem> Items;                   //订单明细项   
         public double TotalPrice = 0;        //总价
-        public Order(string OrderNum, DateTime BuyTime, string Location, string Customer, string TradeName,List<OrderItem> Items)
+        public Order(string OrderNum, DateTime BuyTime, string Location, string Customer,List<OrderItem> Items)
         {
             this.OrderNum = OrderNum;
             this.BuyTime = BuyTime;
@@ -120,7 +120,7 @@ namespace ConsoleApp3
             }
             else
             {
-                Console.WriteLine("添加失败");
+                Console.WriteLine("订单重复，添加失败");
             }
         }
         public void SearchOrder(string type,string value)
@@ -204,6 +204,30 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
+            OrderItem book = new OrderItem("三国演义", 24.99, 1);
+            OrderItem food = new OrderItem("饼干", 16.9, 3);
+            OrderItem toy = new OrderItem("毛绒熊", 39.9, 1);
+            OrderItem light = new OrderItem("台灯", 29, 1);
+            OrderItem product = new OrderItem("ipad", 3999, 1);
+            OrderItem keyboard = new OrderItem("机械键盘",399, 6);
+            List<OrderItem> orderList1 = new List<OrderItem>();
+            orderList1.Add(book);
+            orderList1.Add(food);
+            List<OrderItem> orderList2 = new List<OrderItem>();
+            orderList2.Add(toy);
+            orderList2.Add(light);
+            List<OrderItem> orderList3 = new List<OrderItem>();
+            orderList3.Add(product);
+            orderList3.Add(keyboard);
+            Order order1 = new Order("0001", DateTime.Now, "湖北", "张三", orderList1);
+            Order order2 = new Order("0002", DateTime.Now.AddHours(3), "山西", "李四", orderList2);
+            Order order3 = new Order("0003", DateTime.Now.AddMinutes(39), "北京", "王五", orderList3);
+            OrderService service = new OrderService();
+            service.AddOrder(order1);
+            service.AddOrder(order2);
+            service.AddOrder(order3);
+            //service.AddOrder(order3);
+            service.SearchOrder("OrderNum", "0001");
         }
     }
 }
