@@ -1,0 +1,21 @@
+C:\Users\naruo\Desktop\homework 5\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\naruo\Desktop\homework 5\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\naruo\Desktop\homework 5\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\naruo\Desktop\homework 5\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csprojAssemblyReference.cache
+C:\Users\naruo\Desktop\homework 5\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\naruo\Desktop\homework 5\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\naruo\Desktop\homework 5\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\naruo\Desktop\homework 5\Order program\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\naruo\Desktop\homework 5\Order program\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\naruo\Desktop\homework 5\Order program\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\naruo\Desktop\homework 5\Order program\ConsoleApp3\obj\Debug\ConsoleApp3.csprojAssemblyReference.cache
+C:\Users\naruo\Desktop\homework 5\Order program\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\naruo\Desktop\homework 5\Order program\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\naruo\Desktop\homework 5\Order program\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\naruo\Desktop\homework 6\Order program\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\naruo\Desktop\homework 6\Order program\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\naruo\Desktop\homework 6\Order program\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\naruo\Desktop\homework 6\Order program\ConsoleApp3\obj\Debug\ConsoleApp3.csprojAssemblyReference.cache
+C:\Users\naruo\Desktop\homework 6\Order program\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\naruo\Desktop\homework 6\Order program\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\naruo\Desktop\homework 6\Order program\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
