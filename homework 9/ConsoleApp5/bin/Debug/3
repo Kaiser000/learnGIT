@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>一图读懂2020最高检工作报告</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<script>
+        window.parent.postMessage({
+            event: 'headComplete',
+            time: Date.now()
+        }, '*');
+    </script>
+</head>
+<body class="font-size-1" ontouchstart>
+<script type="text/javascript">
+(function () {
+var getQueryString = function (name, type) {
+var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+var r = type === 1 ? window.location.search.substr(1)
+.match(reg) : window.location.hash.substr(1).match(reg);
+if (r != null) {
+return unescape(r[2]);
+}
+return null;
+};
+var fsize = getQueryString('fontSize', 1) || 'font-size-1';
+var sdkver = getQueryString('sdkver', 1);
+var version = getQueryString('verision', 2);
+version = version && version.slice(0, 8);
+window.BAIDU_VERSION = sdkver || version;
+window.BAIDU_VERSION = window.BAIDU_VERSION ? '_' + window.BAIDU_VERSION : '';
+document.body.className = fsize;
+var head = document.getElementsByTagName('head')[0];
+var link = document.createElement('link');
+link.href =
+"https://gss0.bdstatic.com/5bd1bjqh_Q23odCf/static/thirdparty/js/wrap/third" +
+window.BAIDU_VERSION + ".css";
+link.rel = 'stylesheet';
+link.type = 'text/css';
+window.addEventListener('message', function (e) {
+if (e.data.event === 'postFontSize') {
+document.body.className = e.data.data.fontSize;
+document.body.style.visibility = 'visible';
+}
+});
+link.onload = function () {
+window.parent.postMessage({
+event: 'getFontSize',
+time: Date.now()
+}, '*');
+setTimeout(function () {
+document.body.style.visibility = 'visible';
+}, 200);
+};
+link.onerror = function () {
+document.body.style.visibility = 'visible';
+};
+head.appendChild(link);
+}());
+</script>
+<div id="container" class="container">
+<div class="header">
+<div id="title" class="titleFont">一图读懂2020最高检工作报告</div>
+<div class="info link" data-href="https://www.whb.cn">
+<img src="https://wenhui.whb.cn/third/baidu/96.png" data-href="https://www.whb.cn" />
+<span data-href="https://www.whb.cn"> 文汇客户端 2020-05-25 23:04:15</span>
+</div>
+</div>
+<article>
+<p><img border="0" src="https://wenhui.whb.cn/u/cms/www/202005/25230205abei.jpg" data-width="259px" data-height="194px" data-index="0"/></p><p><img border="0" src="https://wenhui.whb.cn/u/cms/www/202005/25230235uh0p.jpg" data-width="259px" data-height="194px" data-index="1"/></p><p><img border="0" src="https://wenhui.whb.cn/u/cms/www/202005/25230259p49z.jpg" data-width="259px" data-height="194px" data-index="2"/></p><p class="contentFont">来源：最高人民检察院微信公众号</p><p class="contentFont">编辑：邵大卫<br/></p><p class="contentFont">声明：转载此文是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请作者持权属证明与本网联系，我们将及时更正、删除，谢谢。</p>
+</article>
+</div>
+<script type="text/javascript">
+(function() {
+var domHeight = document.body.clientHeight;
+window.parent.postMessage({
+event: 'iFrameComplete',
+height: domHeight,
+time: Date.now()
+}, '*');
+var thirdJs = document.createElement("script");
+thirdJs.src =
+"https://gss0.bdstatic.com/5bd1bjqh_Q23odCf/static/thirdparty/js/wrap/third" +
+window.BAIDU_VERSION + ".js";
+document.body.appendChild(thirdJs);
+thirdJs.onload = function () {
+window.parent.postMessage({
+event: 'thirdJsLoaded',
+time: Date.now()
+}, '*');
+};
+}());
+</script>
+<script>
+    // 此段js务必保留
+    window.parent.postMessage({
+        event: 'bodyComplete',
+        time: Date.now()
+    }, '*');
+</script>
+<script src="https://www.whb.cn//r/cms/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="https://www.whb.cn//r/cms/front.js" type="text/javascript"></script>
+<script type=text/javascript>
+	$(function() {
+        Cms.viewCountNewThird(location.href,"","350414");
+	});
+</script>
+</body>
+</html>
