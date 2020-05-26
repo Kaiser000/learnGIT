@@ -1,0 +1,4 @@
+C:\Users\naruo\source\repos\ConsoleApp5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\naruo\source\repos\ConsoleApp5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\naruo\source\repos\ConsoleApp5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\naruo\source\repos\ConsoleApp5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
