@@ -1,0 +1,14 @@
+C:\Users\naruo\todoapi\bin\Debug\netcoreapp2.1\todoapi.deps.json
+C:\Users\naruo\todoapi\bin\Debug\netcoreapp2.1\todoapi.runtimeconfig.json
+C:\Users\naruo\todoapi\bin\Debug\netcoreapp2.1\todoapi.runtimeconfig.dev.json
+C:\Users\naruo\todoapi\bin\Debug\netcoreapp2.1\todoapi.dll
+C:\Users\naruo\todoapi\bin\Debug\netcoreapp2.1\todoapi.pdb
+C:\Users\naruo\todoapi\obj\Debug\netcoreapp2.1\todoapi.csprojAssemblyReference.cache
+C:\Users\naruo\todoapi\obj\Debug\netcoreapp2.1\todoapi.csproj.CoreCompileInputs.cache
+C:\Users\naruo\todoapi\obj\Debug\netcoreapp2.1\todoapi.RazorAssemblyInfo.cache
+C:\Users\naruo\todoapi\obj\Debug\netcoreapp2.1\todoapi.RazorAssemblyInfo.cs
+C:\Users\naruo\todoapi\obj\Debug\netcoreapp2.1\todoapi.AssemblyInfoInputs.cache
+C:\Users\naruo\todoapi\obj\Debug\netcoreapp2.1\todoapi.AssemblyInfo.cs
+C:\Users\naruo\todoapi\obj\Debug\netcoreapp2.1\todoapi.RazorTargetAssemblyInfo.cache
+C:\Users\naruo\todoapi\obj\Debug\netcoreapp2.1\todoapi.dll
+C:\Users\naruo\todoapi\obj\Debug\netcoreapp2.1\todoapi.pdb
